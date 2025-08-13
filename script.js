@@ -8,7 +8,7 @@ let shuffled = emojiPairs.sort(() => 0.5 - Math.random());
 let flippedCards = [];
 let lockBoard = false;
 let minute = 4;
-let timeLeft = 300; // ⏳ الوقت بالثواني
+let timeLeft = 60; // ⏳ الوقت بالثواني
 let timerStarted = false;
 let timerInterval;
 
@@ -58,7 +58,7 @@ shuffled.forEach((emoji) => {
           clearInterval(timerInterval);
           setTimeout(() => {
             alert( {seconds} );
-          }, 300);
+          }, 60);
         }
 
       } else {

@@ -42,3 +42,12 @@ p {
 .card.flipped {
   background-color: #4caf50;
 }
+
+#b{
+      border-radius: 10px;
+    padding: 12px 15px;
+    border: none;
+    background-color: #003aa7;
+    color: #fff;
+    cursor: pointer;
+}
